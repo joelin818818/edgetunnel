@@ -1,3 +1,6 @@
+// @ts-nocheck
+// 说明：本文件为 Cloudflare Worker 脚本，大量使用 Worker 全局 API（fetch/Headers/Response/btoa 等），
+// 且采用中文标识符与导出对象语法，TypeScript 的 JS 检查器会误报。运行时由 Worker 运行时执行，不影响部署。
 const Version = '2026-07-29 23:57:34';
 let config_JSON, 缓存SOCKS5白名单 = null, 调试日志打印 = false;
 let SOCKS5白名单 = ['*tapecontent.net', '*cloudatacdn.com', '*loadshare.org', '*cdn-centaurus.com', 'scholar.google.com'];
